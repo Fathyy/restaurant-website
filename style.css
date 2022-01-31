@@ -1,0 +1,37 @@
+body{
+    font-size: 16px;
+}
+.container{
+    margin: 0;
+}
+.navbar{
+    background-color: grey;
+    padding: 10px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px 20px;
+    
+    
+}
+.navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.bg-image{
+    background-image: url(./images/istockphoto-1167545301-170667a.jpg);
+    background-size: cover;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-family: 700;
+}
+.pp{
+    color: white;
+    font-family: 700;
+    font-size: 26px;
+}
