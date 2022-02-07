@@ -1,4 +1,4 @@
-.img{
+.imgg{
     background-image: url(./images/res.avif);
     background-size: cover;
     height: 70vh;
@@ -7,33 +7,49 @@
 .white-color{
     color: white;
 }
+.white-color-kin{
+    margin-top: 20px;
+    color: white;
+    margin-left: 10px; 
+}
+
 .intro-text{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    padding-top: 90px;
+}
+.btn{
+    margin-top: 20px;
+    float: left;
 }
 
 /* second section begins */
-.btn{
+.botn{
     background-color: #74776b ;
     color:#edf2f4 ;
     border: 2px solid #74776b ;
     padding: 8px 32px;
     border-radius: 10px;
     cursor: grab;
+    margin-right: 20px;
 }
-.btn:hover{
-    background-color: #88656f;
+.botn:hover{
+    background-color: #e75613;
     transition-duration: .6s;
 
 }
-.btn{
+.botn{
     display: inline;
     margin: 20px;
 }
 .meals-carousel{
     display: block;
+    
+}
+.second{
+    margin: 20px;
 }
 /* .carousel-item img{
     width:640px;
