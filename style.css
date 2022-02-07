@@ -29,17 +29,19 @@
 
 }
 .btn{
-    display: block;
+    display: inline;
     margin: 20px;
 }
 .meals-carousel{
-    display: flex;
-    justify-content: space-evenly;
+    display: block;
 }
-.main-slider img{
-    max-height: 80vh !important;
-    max-width: 80vh;
-}
-.carousel-inner{
-    margin-right: 50px;
-}
+/* .carousel-item img{
+    width:640px;
+    height:360px;
+} */
+.carousel {
+    width:640px;
+    height:360px;
+  }
+    
+
