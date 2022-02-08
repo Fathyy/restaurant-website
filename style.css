@@ -44,20 +44,16 @@
     display: inline;
     margin: 20px;
 }
-.meals-carousel{
-    display: block;
-    
+img{
+    height: 200px;
+    opacity: .8;
 }
-.second{
-    margin: 20px;
+.our-meals{
+    margin-bottom: 120px;
+    margin-top: 120px;
 }
-/* .carousel-item img{
-    width:640px;
-    height:360px;
-} */
-.carousel {
-    width:640px;
-    height:360px;
-  }
-    
+.our-meals .card {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 
