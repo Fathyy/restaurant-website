@@ -1,17 +1,30 @@
-.imgg{
-    background-image: url('./images/indian.jpg');    
-    background-size: 100% 100%;
-    width: 100%;
-    height: 800px;
+.top-section{
+    background: linear-gradient(45deg, #11151fda, #2a2b2f41), url(./images/chicken\ curry.jpg);
+    background-attachment: fixed;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    opacity: 5;
 }
-.img-fluid{
-    height: auto;
-    width: 100%;
-    object-fit: cover;
+/* top navigation bar section starts */
+.navbar-nav .nav-item{
+    padding: 10px 20px;
 }
+.navbar-nav .nav-item:hover{
+    background-color:#f1b636e7;
+}
+
+.navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    color: #edf2f4;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    text-decoration: underline;
+    color: #edf2f4;
+}
+/* top navigation bar section ends */
 .white-color{
     color: white;
 }
