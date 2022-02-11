@@ -1,3 +1,6 @@
+body{
+    background-color: #ec7b2fbb;
+}
 .top-section{
     background: linear-gradient(45deg, #11151fda, #2a2b2f41), url(./images/chicken\ curry.jpg);
     background-attachment: fixed;
@@ -47,7 +50,7 @@
     float: left;
 }
 
-/* second section begins */
+/* our meals section begins */
 .botn{
     background-color: #74776b ;
     color:#edf2f4 ;
@@ -71,8 +74,10 @@ img{
     opacity: .8;
 }
 .our-meals{
-    margin-bottom: 120px;
-    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+    
 }
 .our-meals .card {
     margin-top: 32px;
