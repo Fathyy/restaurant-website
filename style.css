@@ -1,6 +1,6 @@
 
 body{
-    background-color: #e78746e8;
+    background-color: #a37b64e8;
 }
 .top-section{
     background: linear-gradient(45deg, #11151fda, #2a2b2f41), url(./images/chicken\ curry.jpg);
@@ -101,11 +101,19 @@ img{
 .user-image{
     border-radius: 50%;
 }
+.testimonials{
+    background-color: #dfc88a;
+}
 /* testimonials end */
 
 /* events begin */
 .event-image{
     height: 100%;
 }
+.maggie-events{
+    background: linear-gradient(to left, #a8984e93, #957e198a ), url(./images/graduation.jpg);
+}
+
+
 /* events end */
 
