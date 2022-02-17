@@ -1,6 +1,6 @@
 
 body{
-    background-color: #ec7b2fbb;
+    background-color: #e78746e8;
 }
 .top-section{
     background: linear-gradient(45deg, #11151fda, #2a2b2f41), url(./images/chicken\ curry.jpg);
@@ -74,18 +74,38 @@ img{
     height: 200px;
     opacity: .8;
 }
-.our-meals{
-    margin-bottom: 100px;
-    margin-top: 100px;
-    
+/* card section begins */
+.titles{
+    font-weight: 700;
+    font-size: 40px;
+}
+.titles:hover{
+    text-decoration: underline gold;
     
 }
-.our-meals .card {
-    margin-top: 32px;
-    margin-bottom: 32px;
+/* card section ends */
+
+/* testimonials begin */
+.card {
+    border: none
 }
 
-/* to be deleted */
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px
+}
 
-/* to be deleted */
+.ratings i {
+    color: gold
+}
+.user-image{
+    border-radius: 50%;
+}
+/* testimonials end */
+
+/* events begin */
+.event-image{
+    height: 100%;
+}
+/* events end */
 
