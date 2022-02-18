@@ -114,6 +114,10 @@ img{
     background: linear-gradient(to left, #a8984e93, #957e198a ), url(./images/graduation.jpg);
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 
 /* events end */
 
